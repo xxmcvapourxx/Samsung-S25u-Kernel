@@ -1,0 +1,17 @@
+{
+  "presubmit": [
+    {
+      "name": "CtsLibcoreTestCases",
+      "options": [
+        {
+          "include-filter": "libcore.java.time"
+        }
+      ]
+    }
+  ],
+  "presubmit-large": [
+    {
+      "name": "CtsLibcoreOjTestCases_time"
+    }
+  ]
+}

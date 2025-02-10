@@ -1,0 +1,15 @@
+{
+  "presubmit": [
+    {
+      "name": "CtsLibcoreTestCases",
+      "options": [
+        {
+          "include-filter": "libcore.java.time.zone"
+        }
+      ]
+    },
+    {
+      "name": "CtsLibcoreOjTestCases_time_zone"
+    }
+  ]
+}
